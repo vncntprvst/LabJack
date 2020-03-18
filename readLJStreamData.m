@@ -18,4 +18,4 @@ dataArray = textscan(fileID, formatSpec, 'Delimiter', delimiter, 'TextType', 'st
 fclose(fileID);
 
 %% Create output variable
-LJSdata = table(dataArray{1:end-1}, 'VariableNames', );
+LJSdata = table(dataArray{1:end-1}, 'VariableNames', labels);
